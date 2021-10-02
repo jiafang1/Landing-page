@@ -1,8 +1,10 @@
-/* body { 
+body { 
     display: flex;
     flex-direction: column;
 }
 
+/* header in a flexbox, with logo to the left and links to the right.
+10% margin on each side to match given design.*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -18,7 +20,14 @@
     color: #F9FAF8;
 }
 
-.content1 {
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+/* .content1 {
     background-color: #1F2937;
 }
 
@@ -34,12 +43,7 @@
 }
 
 
-a {
-    text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
-    margin-left: 10px;
-}
+
 
 button {
     background-color: #3882F6;
