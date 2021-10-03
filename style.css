@@ -27,14 +27,26 @@ a {
     margin-left: 10px;
 }
 
+/* CSS for content1 starts here */
+
+
 /* .content1 {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10%;
+}
+
+.content1-left{
+    flex: 2 0.5 auto;
 }
 
 .content1-title {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .content1-text {
@@ -42,7 +54,12 @@ a {
     font-size: 18px;
 }
 
-
+.img1 {
+    min-width: 0;
+    height: auto;
+    align-self: center;
+    flex: 0, 0, auto;
+}
 
 
 button {
@@ -54,7 +71,7 @@ button {
 }
 
 button:active {
-    background: #3882F6;
+    background: #031c4e;
     box-shadow: inset 0px 0px 5px #c1c1c1;
     outline: none;
-  } */
+} */
