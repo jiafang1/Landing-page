@@ -54,7 +54,7 @@ a {
 /* title and text are part of content1-left */
 .content1-title{
     margin: 0;
-    font-size: 24px;
+    font-size: 48px;
     color: #F9FAF8;
 }
 
@@ -79,7 +79,9 @@ a {
     
 }
 
+.content2-title{
 
+}
 
 
 
