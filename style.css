@@ -146,6 +146,45 @@ Which is why the above section is commented out. */
 
 
 
+
+/* css for content4 starts here */
+/* the only flexbox here is the blue box named content4-box.
+It is split into left with all the text and right with just the button. */
+.content4{
+    padding: 50px 10%;
+}
+
+.content4-box{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+
+.content4-box-left h4{
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.content4-box-left p{
+    margin: 0;
+    font-size: 18px;
+}
+
+.content4-box button{
+    border: #E5E7EB;
+    border-width: 1px;
+    border-style: solid;
+    color: #E5E7EB;
+}
+
+
+
+
 /* general css selectors */
 img{
     min-width: 0;
