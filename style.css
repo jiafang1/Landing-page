@@ -185,6 +185,17 @@ It is split into left with all the text and right with just the button. */
 
 
 
+/* css for footer here */
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
 /* general css selectors */
 img{
     min-width: 0;
