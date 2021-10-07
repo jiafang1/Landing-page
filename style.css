@@ -119,6 +119,33 @@ Which is why the above section is commented out. */
 
 
 
+/* CSS for content3 starts here */
+.content3{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10%;
+    background-color: #E5E7EB;
+}
+
+.content3-text{
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.content3-author{
+    text-align: right;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+
+
+
+
 /* general css selectors */
 img{
     min-width: 0;
